@@ -4,6 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: "/ecommerce1",
+  assetPrefix: "/ecommerce1/",
   trailingSlash: true,
 };
 
