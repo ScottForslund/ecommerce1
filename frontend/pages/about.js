@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About Us - "Your Store"</title>
+        <title>About Us - "Montana Store"</title>
         <meta
           name="description"
           content="Learn about Montana Store and our commitment to Big Sky Country"
@@ -29,14 +29,14 @@ export default function About() {
             <h2 className="text-3xl font-bold mb-6">Our Story</h2>
             <div className="prose prose-lg">
               <p className="text-gray-700 mb-4">
-                Our Store was born from a passion for providing quality products
-                to businesses and individuals. We are committed to delivering
-                products that meet the highest standards.
+                Our Store was born from a passion for providing quality
+                products. We are committed to delivering products that meet the
+                highest standards.
               </p>
               <p className="text-gray-700 mb-4">
                 Our journey began with a simple mission: to connect people with
                 the products they need to thrive. Today, we're proud to serve
-                communities everywhere!
+                communities all over Montana!
               </p>
             </div>
           </section>
@@ -50,7 +50,7 @@ export default function About() {
                 <h3 className="text-xl font-bold mb-2">Montana First</h3>
                 <p className="text-gray-600">
                   We prioritize Customer Service and understand the unique
-                  challenges of shopping.
+                  challenges of online shopping.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -74,7 +74,9 @@ export default function About() {
 
           {/* Why Choose Us */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6">Why Choose Our Store?</h2>
+            <h2 className="text-3xl font-bold mb-6">
+              Made In Montana, For Everyone!
+            </h2>
             <div className="bg-white p-8 rounded-lg shadow-md">
               <ul className="space-y-4">
                 <li className="flex items-start">
@@ -90,9 +92,12 @@ export default function About() {
                     />
                   </svg>
                   <div>
-                    <strong className="text-lg">Fast Delivery</strong>
+                    <strong className="text-lg">
+                      Quick shipping to all areas of Big Sky Country!
+                    </strong>
                     <p className="text-gray-600">
-                      Quick shipping to all corners of wherever!
+                      Quick shipping to all corners of the beautiful and vast
+                      state of Montana!
                     </p>
                   </div>
                 </li>
@@ -111,7 +116,7 @@ export default function About() {
                   <div>
                     <strong className="text-lg">Local Support Team</strong>
                     <p className="text-gray-600">
-                      customer service that understands your needs
+                      Customer service that understands your needs
                     </p>
                   </div>
                 </li>

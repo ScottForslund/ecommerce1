@@ -132,7 +132,7 @@ export default function Home() {
               Your Premier Online Store
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-200">
-              Quality products for Our Customers
+              Quality Montana Made Products for Every Customer.
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
               <Link href="/shop">
@@ -156,7 +156,7 @@ export default function Home() {
               Featured Products
             </h2>
             <p className="text-center text-gray-600 mb-12">
-              Handpicked Products for Quality
+              Made from the best products to ensure quality!
             </p>
 
             {isLoading ? (
